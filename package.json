@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "npx babel ./src/test.js --out-file ./out/test.js"
+    "compile": "npx webpack --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
